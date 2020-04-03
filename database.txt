@@ -1,0 +1,18 @@
+Initialisation de la base de données
+
+(venv) $ flask db init
+
+Géneration du script de migration
+
+(venv) $ flask db migrate -m "users table"
+
+(venv) $ flask db migrate -m "followers"
+
+Migration de la base données:
+
+(venv) $ flask db upgrade
+
+Retour à la situation précedente
+
+(venv) $ flask db downgrade
+
